@@ -1,7 +1,7 @@
 // frontend/src/App.jsx
 import { useState } from 'react';
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = 'https://growthpro-ai-backend.onrender.com';
 
 export default function App() {
   const [name, setName] = useState('');
